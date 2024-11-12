@@ -155,14 +155,23 @@ body{
 .banner .md-link{
   position: absolute;
   right: 5%;
-  bottom: 10%;
+  bottom: 5%;
   font-family: "Montserrat", serif;
   font-size: calc(2px + 1vw);
   background: #005831;
   padding: 5px 10px;
   border-radius: 5px;
 }
-
+.banner .md-link-2{
+  position: absolute;
+  right: 18%;
+  bottom: 20%;
+  font-family: "Montserrat", serif;
+  font-size: calc(4px + 1vw);
+  background: #0672f7;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
 
 .group-tabs{
   color: #000;
@@ -255,11 +264,14 @@ body{
   background: #e8a147;
   color: #FFF;
   border-radius: 10px;
-  padding: 10px 7px;
+  padding: 5px 7px;
   line-height: 1.5;
   text-align: center;
   text-transform: uppercase;
   font-size: calc(10px + 1vw);
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 700;
 }
 .md-main-text img{
   margin-top: 20px;
@@ -286,7 +298,13 @@ body{
     padding: 5px 30px 5px 20px;
     font-size: calc(10px + 1vw);
   }
-
+  .banner .md-link{
+    padding: 2px 5px;
+    right: 2%;
+  }
+  .banner .md-link-2{
+    padding: 2px 5px;
+  }
   .header .menu{
     float: none;
     width: 100%;
@@ -559,13 +577,15 @@ body{
   font-size: calc(10px + 1vw);
   font-weight: 700;
 }
-.page-dfile .md-main-text a{
-  background: #005831;
+.md-main-text a.text-dfile{
+  background: #00545c;
   color: #FFF;
   text-align: center;
-  display: block;
-  padding: 10px 0px;
-  font-size: calc(20px + 1vw);
+  display: table;
+  padding: 10px 10px;
+  margin: 0 auto;
+  border-radius: 20px;
+  font-size: calc(10px + 1vw);
   font-weight: 700;
   text-transform: uppercase;
 }
