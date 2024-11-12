@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'UTM Futura Extra';
+    src: url('UTMFuturaExtra.eot');
+    src: url('UTMFuturaExtra.eot?#iefix') format('embedded-opentype'),
+        url('UTMFuturaExtra.woff2') format('woff2'),
+        url('UTMFuturaExtra.woff') format('woff'),
+        url('UTMFuturaExtra.ttf') format('truetype'),
+        url('UTMFuturaExtra.svg#UTMFuturaExtra') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
