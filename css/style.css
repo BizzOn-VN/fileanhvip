@@ -97,7 +97,7 @@ body{
   display: inline-block;
   font-size: calc(6px + 1vw);
 }
-.header ul li .md-mtk{
+.header ul li .active{
   background: #e8a147;
 }
 .header .hv-submenu{
@@ -203,17 +203,26 @@ body{
 .group-tabs ul{
   display: table;
   width: 100%;
-  padding: 20px 0px 40px;
+  padding: 10px 10px;
 }
 .group-tabs ul li{
   display: table-cell;
   text-align: center;
-  
+  border: 1px solid #FFF;
+  border-radius: 20px;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 .group-tabs ul li a{
   color: #FFF;
-      padding: 5px 10px;
-      display: inline-block;
+  padding: 5px 10px;
+  display: inline-block;
+  
+  
+}
+.group-tabs ul li a.active{
+  font-weight: 700;
 }
 .group-tabs .tab-content {
   padding: 5px 10px 30px 10px;
@@ -375,6 +384,7 @@ body{
     display: block;
     float: left;
     width: 20%;
+    margin-right: 0px;
   }
   .group-tabs .tab-content .md-col-3{
     width: 50%;
@@ -538,24 +548,21 @@ body{
   font-weight: 700;
 }
 .main-page-dangky-2{
-  width: 60%;
-  display: table;
-  margin: 20px auto;
-  background: #FFF;
-  padding: 20px 0px;
+  padding: 5% 10px 10%;
 }
 .main-page-dangky-2 .md-col{
   float: left;
-  width: 43%;
+  width: 24%;
+  margin-right: 1.3%;
   border: 5px solid #00545c;
   border-top: 0px;
   background: #f0f0f0;
   color: #00545c;
   text-align: center;
-  margin: 0px 2% 0px 5%;
+
 }
-.main-page-dangky-2 .md-col-2{
-  margin: 0px 5% 0px 2%;
+.main-page-dangky-2 .md-col:last-child{
+  margin-right: 0%;
 }
 .main-page-dangky-2 .md-col h6{
   font-size: calc(20px + 1vw);
@@ -565,8 +572,14 @@ body{
   background: #00545c;
 }
 .main-page-dangky-2 .md-col p{
-  font-size: calc(10px + 1vw);
-  margin-bottom: 10px;
+  font-size: calc(6px + 1vw);
+  margin-bottom: 15px;
+  text-align: left;
+  padding: 0px 10px;
+}
+.main-page-dangky-2 .md-col p img{
+  width: 10%;
+  margin-right: 5px;
 }
 .main-page-dangky-2 .md-col .md-text-1{
   font-size: calc(20px + 1vw);
@@ -580,7 +593,7 @@ body{
 }
 .main-page-dangky-2 .md-col a{
   background: #00545c;
-  font-size: calc(20px + 1vw);
+  font-size: calc(10px + 1vw);
   padding: 10px 10px;
   display: inline-block;
   margin-top: 20px;
@@ -630,11 +643,23 @@ body{
   .main-page-dangky form .md-col-2{
     margin-top: 10px;
   }
+  
+  .main-page-dangky-2 .md-col{
+    width: 49%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+  }
+  .main-page-dangky-2 .md-col-2{
+   margin-right: 0%;
+  }
   .main-page-dangky-2{
-    width: 90%;
+    padding-bottom: 0px;
   }
   .main-page-dangky-2 .md-col h6{
     font-size: calc(17px + 1vw);
+  }
+  .main-page-dangky-2 .md-col p{
+    font-size: calc(10px + 1vw);
   }
   .main-page-dangky-2 .md-col a{
     font-size: calc(17px + 1vw);
