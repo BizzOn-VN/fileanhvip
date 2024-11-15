@@ -438,7 +438,7 @@ body{
   display: table;
   margin: 0 auto;
 }
-.main-page-dangky form p.md-text{
+.main-page-dangky .md-text{
   display: inline-block;
   display: table;
   margin: 0 auto 10px auto;
@@ -448,10 +448,26 @@ body{
   padding: 10px 10px;
   border-radius: 20px;
 }
+.main-page-dangky .nav{
+  display: block;
+  width: 100%;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}
+.main-page-dangky ul li{
+  float: left;
+  width: 25%;
+  
+}
+.main-page-dangky ul li a{
+  opacity: 0.8;
+}
+.main-page-dangky ul li a.active{
+  opacity: 1;
+}
 .main-page-dangky form .md-top .md-left{
   float: left;
   width: 70%;
-  padding-top: 10px;
 }
 .main-page-dangky form .md-top .md-right{
   float: right;
@@ -478,13 +494,17 @@ body{
   background: #00545c;
   padding: 10px 5px;
   border: 2px solid #005831;
+  margin-right: 5%;
 }
 .main-page-dangky form .md-col-2 input{
-  float: right;
-  width: 30%;
-  background: #00545c;
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: url(../images/ico-next.png) no-repeat;
+  background-size: 100% auto;
   margin-bottom: 0px;
   color: #FFF;
+  border: none;
 }
 .main-page-dangky form .md-col-2{
   margin-top: 20px;
@@ -684,5 +704,23 @@ body{
   }
   .header .hv-submenu:hover .sub-menu{
     display: inline-block !important;
+  }
+  .main-page-dangky ul li{
+    width: 50%;
+  }
+  .main-page-dangky .md-text{
+    width: 100%;
+  }
+  .main-page-dangky form .md-col-2 input{
+    width: 35px;
+    height: 35px;
+
+  }
+}
+@media screen and (min-width: 1599px){
+  .main-page-dangky form .md-col-2 input{
+    width: 50px;
+    height: 50px;
+
   }
 }
