@@ -489,25 +489,26 @@ body{
   color: #00545c;
 }
 .main-page-dangky form .md-col-2 span{
-  float: left;
-  width: 70%;
-  background: #00545c;
   padding: 10px 5px;
-  border: 2px solid #005831;
-  margin-right: 5%;
+  color: #00545c;
+  font-weight: 600;
+  display: table;
+  margin: 0 auto;
+  font-size: calc(3px + 1vw);
 }
 .main-page-dangky form .md-col-2 input{
-  float: left;
-  width: 40px;
-  height: 40px;
-  background: url(../images/ico-next.png) no-repeat;
-  background-size: 100% auto;
+  display: table;
+  margin: 0 auto;
+  width: 40%;
+  background: #e8a147;
   margin-bottom: 0px;
   color: #FFF;
-  border: none;
+  border: 2px solid #e8a147;
+  cursor: pointer;
+  border-radius: 20px;
 }
 .main-page-dangky form .md-col-2{
-  margin-top: 20px;
+  width: 70%;
 }
 .main-page-dangky form p.error{
   font-style: italic;
@@ -660,9 +661,6 @@ body{
   .main-page-thanhtoan p{
     margin-bottom: 5px;
   }
-  .main-page-dangky form .md-col-2{
-    margin-top: 10px;
-  }
   
   .main-page-dangky-2 .md-col{
     width: 49%;
@@ -712,15 +710,9 @@ body{
     width: 100%;
   }
   .main-page-dangky form .md-col-2 input{
-    width: 35px;
-    height: 35px;
-
+    width: 50%;
   }
-}
-@media screen and (min-width: 1599px){
-  .main-page-dangky form .md-col-2 input{
-    width: 50px;
-    height: 50px;
-
+  .main-page-dangky form .md-col-2 span{
+    font-size: calc(5px + 1vw);
   }
 }
