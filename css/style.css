@@ -234,6 +234,17 @@ body{
   margin-right: 1.3%;
   position: relative;
   background: #757575;
+  cursor: pointer;
+  overflow: hidden;
+}
+.md-img-nav{
+  display: none;
+  background: transparent;
+  padding: 0%;
+  width: 80%;
+}
+.md-img-nav img{
+  width: 100%;
 }
 .group-tabs .tab-content .md-col-3:last-child{
   margin-right: 0%;
