@@ -251,6 +251,19 @@ body{
   padding: 0%;
   width: 80%;
 }
+.md-img-nav a{
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  background: #5bb53a;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.md-img-nav a:hover{
+  color: #FFF;
+}
 .md-img-nav img{
   width: 100%;
 }
@@ -698,6 +711,17 @@ body{
   font-size: calc(20px + 1vw);
   padding: 20px 0px 15% 5%;
 }
+.fancybox-button svg{
+  background: #00545c;
+  border-radius: 50%;
+}
+.fancybox-slide--html .fancybox-close-small{
+  opacity: 1;
+  padding: 0px;
+  margin: 0px;
+  width: 25px;
+  height: 25px;
+}
 @media screen and (max-width: 767px){
   .main-page-dangky{
     width: 80%;
@@ -774,5 +798,8 @@ body{
   }
   .main-page-dangky form .md-col-2 span{
     font-size: calc(5px + 1vw);
+  }
+  .md-img-nav a{
+    padding: 5px 10px;
   }
 }
