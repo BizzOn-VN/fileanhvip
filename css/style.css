@@ -216,8 +216,7 @@ body{
 .group-tabs ul li{
   display: table-cell;
   text-align: center;
-  border: 1px solid #FFF;
-  border-radius: 20px;
+  
   float: left;
   margin-right: 5px;
   margin-bottom: 5px;
@@ -226,11 +225,14 @@ body{
   color: #FFF;
   padding: 5px 10px;
   display: inline-block;
+  border: 1px solid #FFF;
+  border-radius: 20px;
   
   
 }
 .group-tabs ul li a.active{
   font-weight: 700;
+  background: #e8a147;
 }
 .group-tabs .tab-content {
   padding: 5px 10px 30px 10px;
@@ -260,9 +262,10 @@ body{
   padding: 10px 20px;
   text-transform: uppercase;
   border-radius: 20px;
+  font-weight: 600;
 }
 .md-img-nav a:hover{
-  color: #FFF;
+  color: #000;
 }
 .md-img-nav img{
   width: 100%;
