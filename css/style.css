@@ -252,14 +252,14 @@ body{
   width: 80%;
 }
 .md-img-nav a{
-  position: absolute;
+  position: fixed;
   left: 50%;
-  bottom: 10px;
+  top: 80%;
   transform: translateX(-50%);
-  background: #5bb53a;
+  background: #e8a147;
   padding: 10px 20px;
   text-transform: uppercase;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 .md-img-nav a:hover{
   color: #FFF;
@@ -719,8 +719,8 @@ body{
   opacity: 1;
   padding: 0px;
   margin: 0px;
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
 }
 @media screen and (max-width: 767px){
   .main-page-dangky{
@@ -801,5 +801,7 @@ body{
   }
   .md-img-nav a{
     padding: 5px 10px;
+    top: 60%;
   }
+
 }
