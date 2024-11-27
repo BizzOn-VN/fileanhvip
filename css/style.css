@@ -98,7 +98,7 @@ body{
   font-size: calc(6px + 1vw);
 }
 .header ul li .active{
-  background: #e8a147;
+  background: #dd0861;
 }
 .header .hv-submenu{
   position: relative;
@@ -212,6 +212,7 @@ body{
   display: table;
   width: 100%;
   padding: 10px 10px;
+  background: #dd1b5c;
 }
 .group-tabs ul li{
   display: table-cell;
@@ -232,7 +233,7 @@ body{
 }
 .group-tabs ul li a.active{
   font-weight: 700;
-  background: #e8a147;
+  background: #dd1b5c;
 }
 .group-tabs .tab-content {
   padding: 5px 10px 30px 10px;
@@ -337,25 +338,28 @@ body{
   color: #FFF;
   text-transform: uppercase;
   text-align: center;
-  background: #005831;
+  background: #dd1b5c;
 /*  border: 1px solid #FFF;*/
   border-radius: 10px;
   padding: 10px 7px;
   line-height: 1.5;
+  margin-bottom: 10px;
 }
 .md-main-text .md-text-1 span{
-  color: #e8a147;
+  text-transform: lowercase;
+  display: block;
+}
+.md-main-text .md-text-3{
+  color: #f6ff00;
   display: block;
 }
 .md-main-text .md-text-2{
-  background: #e8a147;
+  background: #af0449;
   color: #FFF;
   border-radius: 10px;
   padding: 5px 7px;
   line-height: 1.5;
   text-align: center;
-  text-transform: uppercase;
-  font-size: calc(10px + 1vw);
   display: block;
   margin-bottom: 5px;
   font-weight: 700;
@@ -476,15 +480,15 @@ body{
   display: table;
   margin: 0 auto;
   background: #f0f0f0;
-  border: 5px solid #00545c;
+  border: 5px solid #dd1b5c;
   padding-bottom: 50%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 .main-page-dangky h6{
   display: table;
-  margin: 0px auto 20px auto;
-  background: #00545c;
+  margin: 10px auto 20px auto;
+  background: #dd1b5c;
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
@@ -500,7 +504,7 @@ body{
   display: inline-block;
   display: table;
   margin: 0 auto 10px auto;
-  background: #00545c;
+  background: #dd1b5c;
   text-align: center;
   text-transform: uppercase;
   padding: 10px 10px;
@@ -536,7 +540,7 @@ body{
 }
 .main-page-dangky form input{
   width: 100%;
-  border: 2px solid #005831;
+  border: 2px solid #dd1b5c;
   padding: 10px;
   color: #00545c;
 }
@@ -548,7 +552,7 @@ body{
 }
 .main-page-dangky form .md-col-2 span{
   padding: 10px 5px;
-  color: #00545c;
+  color: #dd1b5c;
   font-weight: 600;
   display: table;
   margin: 0 auto;
@@ -558,10 +562,10 @@ body{
   display: table;
   margin: 0 auto;
   width: 40%;
-  background: #e8a147;
+  background: #dd1b5c;
   margin-bottom: 0px;
   color: #FFF;
-  border: 2px solid #e8a147;
+  border: 2px solid #dd1b5c;
   cursor: pointer;
   border-radius: 20px;
 }
@@ -621,10 +625,12 @@ body{
 }
 .main-page-thanhtoan .md-text-2{
   font-size: calc(15px + 1vw);
+  color: #dd1b5c;
 }
 .main-page-thanhtoan .md-text-3{
   font-size: calc(15px + 1vw);
   font-weight: 700;
+  color: #dd1b5c;
 }
 .main-page-dangky-2{
   padding: 5% 10px 10%;
@@ -633,7 +639,7 @@ body{
   float: left;
   width: 24%;
   margin-right: 1.3%;
-  border: 5px solid #00545c;
+  border: 5px solid #dd1b5c;
   border-top: 0px;
   background: #f0f0f0;
   color: #00545c;
@@ -648,13 +654,14 @@ body{
   padding: 10px 0px 15px 0px;
   color: #FFF;
   
-  background: #00545c;
+  background: #dd1b5c;
 }
 .main-page-dangky-2 .md-col p{
   font-size: calc(6px + 1vw);
   margin-bottom: 15px;
   text-align: left;
   padding: 0px 10px;
+  color: #dd1b5c;
 }
 .main-page-dangky-2 .md-col p img{
   width: 10%;
@@ -671,7 +678,7 @@ body{
   padding: 30px 0px;
 }
 .main-page-dangky-2 .md-col a{
-  background: #00545c;
+  background: #dd1b5c;
   font-size: calc(10px + 1vw);
   padding: 10px 10px;
   display: inline-block;
