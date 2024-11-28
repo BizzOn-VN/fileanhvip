@@ -713,9 +713,12 @@ body{
   font-weight: 700;
   text-transform: uppercase;
 }
-.banner marquee{
+marquee{
   background: #af0449;
   padding: 5px 10px 7px;
+}
+.banner a img{
+  width: 100%;
 }
 .content-page-lh{
   font-size: calc(20px + 1vw);
