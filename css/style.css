@@ -720,6 +720,111 @@ marquee{
 .banner a img{
   width: 100%;
 }
+.banner a .img-banner-1{
+  position: absolute;
+  right: 10.5%;
+  top: 3%;
+  width: 33%;
+  animation: img-banner-1 6s;
+}
+.banner a .img-banner-2{
+  position: absolute;
+  right: 10%;
+  top: 18%;
+  width: 31%;
+  animation: img-banner-2 6s;
+}
+.banner a .img-banner-3{
+  position: absolute;
+  right: 8%;
+      top: 30.5%;
+      width: 32.1%;
+  animation: img-banner-3 6s;
+}
+.banner a .img-banner-4{
+  position: absolute;
+  right: 2.5%;
+      top: 50%;
+      width: 43%;
+  animation: img-banner-4 6s;
+}
+.banner a .img-banner-5{
+  position: absolute;
+  right: 3%;
+  top: 67%;
+  width: 38%;
+  animation: img-banner-5 6s;
+}
+@keyframes img-banner-1{
+  0%{
+    opacity: 0;
+  }
+  10%{
+    opacity: 0;
+  }
+  20%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes img-banner-2{
+  0%{
+    opacity: 0;
+  }
+  20%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes img-banner-3{
+  0%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 0;
+  }
+  40%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes img-banner-4{
+  0%{
+    opacity: 0;
+  }
+  40%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes img-banner-5{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  60%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 1;
+  }
+}
 .content-page-lh{
   font-size: calc(20px + 1vw);
   padding: 20px 0px 15% 5%;
