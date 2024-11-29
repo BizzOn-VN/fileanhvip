@@ -761,8 +761,10 @@ marquee{
   }
   10%{
     opacity: 0;
+    transform: scale(0.0);
   }
-  20%{
+  30%{
+    transform: scale(1.0);
     opacity: 1;
   }
   100%{
@@ -773,10 +775,10 @@ marquee{
   0%{
     opacity: 0;
   }
-  20%{
+  25%{
     opacity: 0;
   }
-  30%{
+  35%{
     opacity: 1;
   }
   100%{
@@ -787,10 +789,10 @@ marquee{
   0%{
     opacity: 0;
   }
-  30%{
+  35%{
     opacity: 0;
   }
-  40%{
+  45%{
     opacity: 1;
   }
   100%{
@@ -801,10 +803,10 @@ marquee{
   0%{
     opacity: 0;
   }
-  40%{
+  45%{
     opacity: 0;
   }
-  50%{
+  55%{
     opacity: 1;
   }
   100%{
@@ -815,10 +817,10 @@ marquee{
   0%{
     opacity: 0;
   }
-  50%{
+  55%{
     opacity: 0;
   }
-  60%{
+  65%{
     opacity: 1;
   }
   100%{
