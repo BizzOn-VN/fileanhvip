@@ -97,6 +97,10 @@ body{
   display: inline-block;
   font-size: calc(6px + 1vw);
 }
+.header ul li a img{
+  width: 30px;
+  margin-right: 5px;
+}
 .header ul li .active{
   background: #dd0861;
 }
