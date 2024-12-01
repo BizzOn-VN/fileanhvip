@@ -241,6 +241,10 @@ body{
   
   
 }
+.group-tabs ul li a:hover{
+  color: #00D373;
+  border: 1px solid #00D373;
+}
 .group-tabs ul li a.active{
   font-weight: 700;
   background: #dd1b5c;
@@ -476,6 +480,7 @@ body{
   }
   .group-tabs ul li a{
     padding: 5px 0px;
+    width: 90%;
   }
 }
 .scroll-top{
