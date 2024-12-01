@@ -31,9 +31,11 @@ $('.toggle-span').click(function(){
 $(window).scroll(function(){
     if ($(window).scrollTop() >= 60) {
         $('.header').addClass('scroll-top');
+        $('marquee').addClass('scroll-top-2');
     }
     else {
         $('.header').removeClass('scroll-top');
+        $('marquee').removeClass('scroll-top-2');
     }                 
 });
 // $("#md-tk").fancybox().trigger('click');
