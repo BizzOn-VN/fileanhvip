@@ -118,6 +118,10 @@ body{
     padding: 10px 0px;
     width: 150%;
 }
+.header .sub-menu img{
+  width: 7px;
+  height: auto;
+}
 .header .sub-menu li{
   margin-bottom: 5px;
   text-align: left;
@@ -130,6 +134,18 @@ body{
   display: inline-block;
 }
 .header .sub-menu li{
+  display: block;
+  position: relative;
+}
+.header .sub-menu-2{
+  position: absolute;
+  left: 99%;
+  top: 0%;
+  padding: 10px 0px; 
+  background: #2d2d2d;
+  display: none;
+}
+.header .sub-menu li:hover .sub-menu-2{
   display: block;
 }
 .header .md-search{
