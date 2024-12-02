@@ -220,17 +220,18 @@ body{
 }
 .group-tabs ul{
   display: table;
+  text-align: center;
   width: 100%;
   padding: 10px 10px;
   background: #191919;
 }
 .group-tabs ul li{
-  display: table-cell;
+  
   text-align: center;
   
-  float: left;
-  margin-right: 5px;
-  margin-bottom: 5px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 .group-tabs ul li a{
   color: #FFF;
