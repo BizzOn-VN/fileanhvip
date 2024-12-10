@@ -827,7 +827,21 @@ marquee{
     opacity: 1;
   }
 }
-@keyframes img-banner-3{
+/*@keyframes img-banner-3{
+  0%{
+    opacity: 0;
+  }
+  35%{
+    opacity: 0;
+  }
+  45%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 1;
+  }
+}*/
+@keyframes img-banner-4{
   0%{
     opacity: 0;
   }
@@ -841,7 +855,7 @@ marquee{
     opacity: 1;
   }
 }
-@keyframes img-banner-4{
+@keyframes img-banner-5{
   0%{
     opacity: 0;
   }
@@ -849,20 +863,6 @@ marquee{
     opacity: 0;
   }
   55%{
-    opacity: 1;
-  }
-  100%{
-    opacity: 1;
-  }
-}
-@keyframes img-banner-5{
-  0%{
-    opacity: 0;
-  }
-  55%{
-    opacity: 0;
-  }
-  65%{
     opacity: 1;
   }
   100%{
