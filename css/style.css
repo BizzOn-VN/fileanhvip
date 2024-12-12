@@ -117,16 +117,7 @@ body{
   background: #2d2d2d;
   padding: 10px 0px;
   width: 150%;
-  overflow-y: scroll;
-  height: 50vh;
   
-}
-.header .sub-menu::-webkit-scrollbar{
-  width: 3px;
-  background: #FFF;
-}
-.header .sub-menu::-webkit-scrollbar-thumb{
-  background: #000;
 }
 .header .sub-menu img{
   width: 7px;
@@ -137,7 +128,7 @@ body{
   text-align: left;
 }
 .header .sub-menu li a{
-  padding: 5px 15px 10px;
+  padding: 3px 15px 5px;
   line-height: 1;
 }
 
@@ -149,11 +140,10 @@ body{
   position: relative;
 }
 .header .sub-menu-2{
-/*  position: absolute;
-  left: 0%;
-  top: 0%;*/
-  margin-left: 5%;
-  padding: 0px; 
+  position: absolute;
+  left: 99%;
+  top: 0%;
+  padding: 10px 0px; 
   background: #2d2d2d;
   display: none;
   width: 90%;
@@ -435,6 +425,10 @@ body{
   .header .md-search{
     float: none;
     width: 40%;
+  }
+  .header .sub-menu-2{
+    left: 50%;
+    width: 50%;
   }
   .header .md-search input[type='search']{
     padding: 5px 30px 5px 20px;
