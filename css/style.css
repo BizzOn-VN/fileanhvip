@@ -115,7 +115,7 @@ body{
   top: 100%;
   z-index: 999;
   background: #2d2d2d;
-  padding: 10px 0px 30px;
+  padding: 10px 0px 50px;
   width: 200%;
   
 }
@@ -154,7 +154,7 @@ body{
   position: absolute;
   left: 99%;
   top: 0%;
-  padding: 10px 0px; 
+  padding: 10px 0px 30px; 
   background: #2d2d2d;
   display: none;
   width: 90%;
