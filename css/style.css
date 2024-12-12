@@ -116,7 +116,7 @@ body{
   z-index: 999;
   background: #2d2d2d;
   padding: 10px 0px;
-  width: 150%;
+  width: 170%;
   
 }
 .header .sub-menu img{
@@ -124,12 +124,12 @@ body{
   height: auto;
 }
 .header .sub-menu li{
-  margin-bottom: 5px;
   text-align: left;
 }
 .header .sub-menu li a{
   padding: 3px 15px 5px;
   line-height: 1;
+  font-size: calc(4px + 1vw);
 }
 
 .header .hv-submenu:hover .sub-menu{
@@ -429,6 +429,12 @@ body{
   .header .sub-menu-2{
     left: 50%;
     width: 50%;
+  }
+  .header .sub-menu li{
+    margin-bottom: 0px !important;
+  }
+  .header .sub-menu li a{
+    font-size: calc(10px + 1vw);
   }
   .header .md-search input[type='search']{
     padding: 5px 30px 5px 20px;
