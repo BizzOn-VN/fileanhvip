@@ -115,7 +115,7 @@ body{
   top: 100%;
   z-index: 999;
   background: #2d2d2d;
-  padding: 10px 0px;
+  padding: 10px 0px 30px;
   width: 170%;
   
 }
@@ -138,11 +138,17 @@ body{
 .header .sub-menu li{
   display: block;
   position: relative;
-  padding: 1px 0px;
+  padding: 3px 0px;
+}
+.header .sub-menu li:hover a{
+  color: #00D373;
 }
 .header .sub-menu li:nth-child(n+15) .sub-menu-2{
   bottom: 0%;
   top: auto;
+}
+.header .sub-menu li:hover .sub-menu-2 a{
+  color: #FFF;
 }
 .header .sub-menu-2{
   position: absolute;
@@ -152,6 +158,9 @@ body{
   background: #2d2d2d;
   display: none;
   width: 90%;
+}
+.header .sub-menu-2 li:hover a{
+  color: #00D373 !important;
 }
 .header .sub-menu li:hover .sub-menu-2{
   display: block;
