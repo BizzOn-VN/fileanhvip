@@ -138,7 +138,7 @@ body{
 .header .sub-menu li{
   display: block;
   position: relative;
-  padding: 3px 0px;
+  padding: 5px 0px;
 }
 .header .sub-menu li:hover a{
   color: #00D373;
