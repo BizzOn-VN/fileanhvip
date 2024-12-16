@@ -1059,8 +1059,33 @@ marquee{
   border-radius: 5px;
 }
 .content-page-lh{
-  font-size: calc(20px + 1vw);
-  padding: 20px 0px 15% 5%;
+  padding: 20px 5% 20%;
+  line-height: 1.4;
+}
+.content-page-lh h6{
+  font-size: calc(10px + 1vw);
+  margin-bottom: 25px;
+}
+.content-page-lh img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.content-page-lh .left-content{
+  float: left;
+  width: 45%;
+}
+.content-page-lh a {
+  display: block;
+  margin-bottom: 15px;
+}
+.content-page-lh .left-content a img{
+  width: 10%;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+.content-page-lh .right-content{
+  float: right;
+  width: 45%;
 }
 .fancybox-button svg{
   background: #dd0861;
@@ -1160,6 +1185,15 @@ marquee{
   }
   .md-popup-2 .md-bottom{
     width: 60%;
+  }
+  .content-page-lh .left-content{
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .content-page-lh .right-content{
+    float: none;
+    width: 100%;
   }
 }
 
