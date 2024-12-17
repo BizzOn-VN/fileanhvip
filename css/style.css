@@ -373,6 +373,10 @@ body{
 }
 .md-main-text .img-qc-2{
   position: relative;
+  padding: 2px;
+}
+.md-main-text .img-qc-2 img{
+  border-radius: 10px;
 }
 .md-main-text .img-qc-2-text-1{
   position: absolute;
@@ -384,9 +388,9 @@ body{
 }
 .md-main-text .img-qc-2-text-2{
   position: absolute;
-  right: 4%;
-  top: 11.8%;
-  width: 54.7% !important;
+  right: 5.1%;
+    top: 12.4%;
+    width: 53.6% !important;
   margin-bottom: 0px;
   animation: img-qc-2 2.5s infinite;
 }
@@ -450,6 +454,7 @@ body{
 }
 .md-main-text-2 .img-qc-3{
   position: relative;
+  padding: 2px;
 }
 .md-main-text-2 .img-qc-3-text-1{
   position: absolute;
