@@ -1059,7 +1059,7 @@ marquee{
   border-radius: 5px;
 }
 .content-page-lh{
-  padding: 20px 5% 20%;
+  padding: 40px 5% 20%;
   line-height: 1.4;
 }
 .content-page-lh h6{
@@ -1097,6 +1097,9 @@ marquee{
   margin: 0px;
   width: 30px;
   height: 30px;
+}
+.page-lienhe{
+  height: 100vh;
 }
 @media screen and (max-width: 767px){
   .scroll-top-2{
