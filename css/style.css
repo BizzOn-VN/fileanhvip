@@ -254,9 +254,10 @@ body{
 .group-tabs ul{
   display: table;
   text-align: center;
-  width: 100%;
+  width: 90%;
   padding: 10px 10px;
   background: #191919;
+  margin: 0 5%;
 }
 .group-tabs ul li{
   
