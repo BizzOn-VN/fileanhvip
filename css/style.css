@@ -1102,6 +1102,58 @@ marquee{
   padding: 10px 15px;
   border-radius: 5px;
 }
+.md-popup-3{
+  text-align: left;
+}
+.md-popup-3 img{
+  display: table;
+  margin: 0 auto 10px auto;
+  width: 20%;
+}
+.md-popup-3 p{
+  margin-bottom: 5px;
+  line-height: 1.4;
+}
+.md-popup-3 p.cl-bl{
+  font-weight: 700;
+}
+.md-popup-3 p span{
+  background: #FFFF33;
+}
+.md-popup-3 .md-bottom{
+  width: 80%;
+  margin-top: 20px;
+}
+.md-popup-3 .md-bottom .button-left{
+  float: left;
+  background: #dd1b5c;
+}
+.md-popup-3 .md-bottom .button-right{
+  float: right;
+  background: #00D373;
+}
+.md-popup-3 a:hover{
+  color: #000;
+}
+.md-popup-4{
+  width: 70%;
+  padding: 30px;
+}
+.md-popup-4 p{
+  margin-bottom: 5px;
+}
+.md-popup-4 img{
+  width: 80%;
+}
+.md-popup-4 .md-bottom {
+  width: 100%;
+}
+.md-popup-4 .md-bottom .md-close{
+  float: none;
+  display: table;
+  margin: 10px auto 0 auto;
+  background: #dd1b5c;
+}
 .content-page-lh{
   padding: 40px 5% 20%;
   line-height: 1.4;
@@ -1232,6 +1284,12 @@ marquee{
   }
   .md-popup-2 .md-bottom{
     width: 60%;
+  }
+  .md-popup-3 .md-bottom{
+    width: 100%;
+  }
+  .md-popup-4 img{
+    width: 100%;
   }
   .content-page-lh .left-content{
     float: none;

@@ -40,6 +40,8 @@ $(window).scroll(function(){
 });
 // $("#md-tk").fancybox().trigger('click');
 // $("#md-popup-2").fancybox().trigger('click');
+// $("#md-popup-3").fancybox().trigger('click');
+// $("#md-popup-4").fancybox().trigger('click');
 
 var wiDth = $('.group-tabs .tab-content .md-col-3').css('width'); 
 $('.group-tabs .tab-content .md-col-3').css('height', wiDth);
