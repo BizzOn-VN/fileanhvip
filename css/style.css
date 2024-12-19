@@ -130,16 +130,16 @@ body{
   
 }
 .header .sub-menu img{
-  width: 7px;
+  width: 5px;
   height: auto;
 }
 .header .sub-menu li{
   text-align: left;
 }
 .header .sub-menu li a{
-  padding: 3px 15px 5px;
+  padding: 3px 15px;
   line-height: 1;
-  font-size: calc(1px + 1vw);
+  font-size: calc(1px + 0.8vw);
 }
 
 .header .hv-submenu:hover .sub-menu{
@@ -148,7 +148,6 @@ body{
 .header .sub-menu li{
   display: block;
   position: relative;
-  padding: 1px 0px;
 }
 .header .sub-menu li:hover a{
   color: #00D373;
