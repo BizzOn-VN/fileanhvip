@@ -70,13 +70,22 @@ input[type=submit] {
   src: url(../fonts/UTMFuturaExtra/UTMFuturaExtra.woff2) format("woff2"),
    url(../fonts/UTMFuturaExtra/UTMFuturaExtra.eot) format("eot"),
     url(../fonts/UTMFuturaExtra/UTMFuturaExtra.ttf) format("ttf"),
-     url(../fonts/UTMFuturaExtra/UTMFuturaExtra.woff) format("woff"); }     
+     url(../fonts/UTMFuturaExtra/UTMFuturaExtra.woff) format("woff"); }   
+@font-face {
+  font-family: 'ArialMT';
+  src: url(../fonts/ArialMT/ArialMT.woff2) format("woff2"),
+   url(../fonts/ArialMT/ArialMT.eot) format("eot"),
+    url(../fonts/ArialMT/ArialMT.ttf) format("ttf"),
+     url(../fonts/ArialMT/ArialMT.woff) format("woff"); }     
 body{
   background: url(../images/bg.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .header{
   padding: 15px 20px;
+}
+.header .logo a{
+  font-family: 'ArialMT';
 }
 .header .menu{
   float: left;
@@ -91,11 +100,12 @@ body{
   text-align: center;
 }
 .header ul li a{
-  padding: 5px 10px 10px;
+  padding: 5px 10px;
   border-radius: 20px;
   line-height: 0.8;
   display: inline-block;
   font-size: calc(6px + 1vw);
+  font-family: 'ArialMT';
 }
 .header ul li a img{
   width: 30px;
@@ -129,7 +139,7 @@ body{
 .header .sub-menu li a{
   padding: 3px 15px 5px;
   line-height: 1;
-  font-size: calc(2px + 1vw);
+  font-size: calc(1px + 1vw);
 }
 
 .header .hv-submenu:hover .sub-menu{
@@ -176,9 +186,10 @@ body{
   border-radius: 20px;
   border: none;
   color: #FFF;
-  padding: 3px 30px 3px 20px;
+  padding: 5px 30px 5px 20px;
   font-size: calc(4px + 1vw);
-
+  font-family: 'ArialMT';
+  margin-top: 5px;
 }
 .header .logo img{
   width: 30%;
@@ -274,6 +285,7 @@ body{
   display: inline-block;
   border: 1px solid #FFF;
   border-radius: 20px;
+  font-family: 'ArialMT';
 }
 .group-tabs ul li .sub-menu{
   display: none;
@@ -524,6 +536,11 @@ body{
 }
 .md-main-text img{
   margin-bottom: 10px;
+  
+}
+.md-main-text .img-qc-1{
+  padding: 2px;
+  border-radius: 10px;
 }
 .md-main-text p{
   font-family: 'UTMFuturaExt';
@@ -591,6 +608,7 @@ body{
   .header .md-search input[type='search']{
     padding: 5px 30px 5px 20px;
     font-size: calc(10px + 1vw);
+    margin-top: 0px;
   }
   .banner .md-link{
     padding: 2px 5px;
@@ -683,7 +701,7 @@ body{
 }
 .scroll-top-2{
   position: fixed;
-  top: 76px;
+  top: 71px;
   width: 100%;
   z-index: 3;
   transition-duration: 0.3s;
