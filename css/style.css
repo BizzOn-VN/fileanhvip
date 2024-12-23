@@ -310,7 +310,7 @@ body{
   border: 1px solid #FFF;
   border-radius: 20px;
   font-family: 'ArialMT';
-  font-size: calc(2px + 1vw);
+  font-size: calc(1px + 0.8vw);
 }
 .group-tabs ul li .sub-menu{
   display: none;
