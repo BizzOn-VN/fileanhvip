@@ -101,6 +101,9 @@ body{
   display: inline-block;
   text-align: center;
 }
+.header ul li:last-child .sub-menu{
+  left: 0%;
+}
 .header ul li.md-position{
   position: absolute;
   left: 50%;
