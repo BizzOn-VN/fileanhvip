@@ -78,8 +78,7 @@ input[type=submit] {
     url(../fonts/ArialMT/ArialMT.ttf) format("ttf"),
      url(../fonts/ArialMT/ArialMT.woff) format("woff"); }     
 body{
-  background: url(../images/bg.jpg) no-repeat;
-  background-size: 100% 100%;
+  background: #191919;
 }
 .header{
   padding: 10px 20px;
@@ -290,7 +289,7 @@ body{
   display: table;
   text-align: center;
   width: 90%;
-  padding: 10px 10px;
+  padding: 20px 10px 0px;
   background: #191919;
   margin: 0 5%;
 }
