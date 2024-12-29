@@ -868,8 +868,11 @@ body{
 .main-page-thanhtoan p{
  color: #000;
  margin-bottom: 10px;
- padding: 0px 20px;
  line-height: 1.2;
+}
+.main-page-thanhtoan .md-top p{
+  
+ padding: 0px 20px;
 }
 .main-page-thanhtoan p span{
   color: #ff0000;
@@ -887,11 +890,23 @@ body{
   display: table;
   margin: 0 auto;
 }
-.main-page-thanhtoan .md-bot{
-  margin-left: 10%;
-}
 .main-page-thanhtoan .md-bot img{
-  width: 50%;
+  width: 100%;
+}
+.main-page-thanhtoan .md-bot{
+  padding: 0px 5%;
+}
+.main-page-thanhtoan .md-bot .md-left{
+  float: left;
+  width: 35%;
+}
+.main-page-thanhtoan .md-bot .md-right{
+  float: right;
+  width: 60%;
+}
+.main-page-thanhtoan .md-bot .md-right img{
+  width: 60%;
+  margin-bottom: 10px;
 }
 .main-page-thanhtoan .md-text-2{
   font-size: calc(15px + 1vw);
@@ -1391,6 +1406,20 @@ marquee{
     margin-bottom: 20px;
   }
   .content-page-lh .right-content{
+    float: none;
+    width: 100%;
+  }
+  .main-page-thanhtoan .md-bot .md-left{
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+   .main-page-thanhtoan .md-bot .md-left img{
+    width: 60%;
+    display: table;
+    margin: 0 auto;
+   }
+  .main-page-thanhtoan .md-bot .md-right{
     float: none;
     width: 100%;
   }
