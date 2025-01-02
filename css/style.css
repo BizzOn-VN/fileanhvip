@@ -362,13 +362,14 @@ body{
 .md-img-nav a{
   position: fixed;
   left: 50%;
-  top: 80%;
+  top: 75%;
   transform: translateX(-50%);
-  background: #dd1b5c;
-  padding: 10px 20px;
-  text-transform: uppercase;
-  border-radius: 20px;
-  font-weight: 600;
+  width: 8%;
+  overflow: hidden;
+}
+
+.md-img-nav a img{
+  position: relative;
 }
 .md-img-nav a:hover{
   color: #000;
@@ -1385,7 +1386,7 @@ marquee{
     font-size: calc(5px + 1vw);
   }
   .md-img-nav a{
-    padding: 5px 10px;
+    width: 12%;
     top: 60%;
   }
   .md-popup-2{
