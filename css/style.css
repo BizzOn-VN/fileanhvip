@@ -365,11 +365,10 @@ body{
   top: 75%;
   transform: translateX(-50%);
   width: 8%;
-  overflow: hidden;
 }
 
 .md-img-nav a img{
-  position: relative;
+  width: 100%;
 }
 .md-img-nav a:hover{
   color: #000;
