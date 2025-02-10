@@ -526,6 +526,43 @@ body{
     opacity: 1;
   }
 }
+.md-main-text .img-qc-4{
+  position: relative;
+}
+.md-main-text .img-qc-4 .img-qc-5-text-1{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 21.5%;
+  width: 78% !important;
+  animation: img-qc-5 4s infinite;
+}
+@keyframes img-qc-5{
+  0%{
+    opacity: 1;
+  }
+  5%{
+    opacity: 0;
+  }
+  10%{
+    opacity: 1;
+  }
+  15%{
+    opacity: 0;
+  }
+  20%{
+    opacity: 1;
+  }
+  25%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 1;
+  }
+}
 .group-tabs .tab-content{
   position: relative;
   background: #373839;
