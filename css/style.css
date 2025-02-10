@@ -529,6 +529,9 @@ body{
 .md-main-text .img-qc-4{
   position: relative;
 }
+.md-main-text .img-qc-4 img{
+  border-radius: 10px;
+}
 .md-main-text .img-qc-4 .img-qc-5-text-1{
   position: absolute;
   left: 50%;
@@ -536,7 +539,9 @@ body{
   top: 21.5%;
   width: 78% !important;
   animation: img-qc-5 4s infinite;
+  border-radius: 0px;
 }
+
 @keyframes img-qc-5{
   0%{
     opacity: 1;
