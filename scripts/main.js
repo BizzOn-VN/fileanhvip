@@ -49,3 +49,5 @@ jQuery(window).on('resize', function() {
 var wiDth = $('.group-tabs .tab-content .md-col-3').css('width'); 
 $('.group-tabs .tab-content .md-col-3').css('height', wiDth);
 });
+
+$("#modal-sucess").fancybox().trigger('click');
