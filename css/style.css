@@ -744,8 +744,9 @@ body{
   .group-tabs ul li{
     display: block;
     float: left;
-    width: 20%;
+    width: 25%;
     margin-right: 0px;
+    margin-bottom: 15px;
   }
   .group-tabs .tab-content .md-col-3{
     width: 49%;
@@ -1497,5 +1498,10 @@ marquee{
   .md-modal-fancybox{
     width: 60%;
     
+  }
+}
+@media screen and (max-width: 400px){
+  .group-tabs ul li{
+    width: 33%;
   }
 }
