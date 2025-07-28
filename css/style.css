@@ -718,7 +718,9 @@ body{
     text-align: left;
     margin-bottom: 10px;
   }
-
+  .header .menu .sub-menu-2{
+    display: none;
+  }
   .toggle-span{
     width: 7%;
     float: right;
