@@ -392,21 +392,19 @@ body{
   margin-bottom: 20px;
 }
 .group-tabs .tab-content .md-left{
-  width: 96%;
-  margin-left: 2%;
+  width: 60%;
+  margin-left: 20%;
 }
 .md-main-text{
   position: absolute;
   right: 10px;
   top: 5px;
   width: 18%;
-  display: none;
 }
 .md-main-text-2{
   position: absolute;
   left: 10px;
   top: 5px;
-  display: none;
   width: 18%;
 }
 .md-main-text .img-qc-2{
@@ -742,6 +740,16 @@ body{
   .active{
     left: 0% !important;
     transition-duration: 0.5s;
+  }
+  .md-main-text{
+    display: none;
+  }
+  .md-main-text-2{
+    display: none;
+  }
+  .group-tabs .tab-content .md-left{
+    width: 90%;
+    margin-left: 5%;
   }
   .group-tabs ul li{
     display: block;
@@ -1394,7 +1402,7 @@ marquee{
     width: 65%;
   }*/
   .group-tabs .tab-content .pagination{
-    margin-right: 2%;
+    margin-right: 5%;
   }
   .group-tabs .tab-content .pagination li{
     margin-right: 5px;
