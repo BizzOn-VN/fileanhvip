@@ -1501,6 +1501,9 @@ marquee{
     width: 60%;
     
   }
+  .banner a{
+    position: static;
+  }
 }
 @media screen and (max-width: 400px){
   .group-tabs ul li{
